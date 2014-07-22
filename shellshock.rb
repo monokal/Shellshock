@@ -37,32 +37,8 @@ begin
   rainbow.push('38;5;057;01')
   rainbow.push('38;5;093;01')
 
-  # Array of rainbow colours in reverse
-  reverse_rainbow = rainbow.reverse
-
   # Array of message lines
   message = Array.new
-  message.push('  .d8888b.  8888888888 8888888888      Y88b   d88P  .d88888b.  888     888 ')
-  message.push(' d88P  Y88b 888        888              Y88b d88P  d88P" "Y88b 888     888 ')
-  message.push('  "Y888b.   8888888    8888888            Y888P    888     888 888     888 ')
-  message.push('     "Y88b. 888        888                 888     888     888 888     888 ')
-  message.push('       "888 888        888                 888     888     888 888     888 ')
-  message.push(' Y88b  d88P 888        888                 888     Y88b. .d88P Y88b. .d88P ')
-  message.push('  "Y8888P"  8888888888 8888888888          888      "Y88888P"   "Y88888P"  ')
-  message.push('  .d8888b.  8888888b.     d8888  .d8888b.  8888888888                      ')
-  message.push(' d88P  Y88b 888   Y88b   d88888 d88P  Y88b 888                             ')
-  message.push('  "Y888b.   888   d88P d88P 888 888        8888888                         ')
-  message.push('     "Y88b. 8888888P" d88P  888 888        888                             ')
-  message.push('       "888 888      d88P   888 888    888 888                             ')
-  message.push(' Y88b  d88P 888     d8888888888 Y88b  d88P 888                             ')
-  message.push('  "Y8888P"  888    d88P     888  "Y8888P"  8888888888                      ')
-  message.push('  .d8888b.   .d88888b.  888       888 888888b.    .d88888b. Y88b   d88P    ')
-  message.push(' d88P  Y88b d88P" "Y88b 888   o   888 888  "88b  d88P" "Y88b Y88b d88P     ')
-  message.push(' 888        888     888 888 d888b 888 8888888K.  888     888   Y888P       ')
-  message.push(' 888        888     888 888d88888b888 888  "Y88b 888     888    888        ')
-  message.push(' 888    888 888     888 88888P Y88888 888    888 888     888    888        ')
-  message.push(' Y88b  d88P Y88b. .d88P 8888P   Y8888 888   d88P Y88b. .d88P    888        ')
-  message.push('  "Y8888P"   "Y88888P"  888P     Y888 8888888P"   "Y88888P"     888        ')
   message.push('  .d8888b.  8888888888 8888888888      Y88b   d88P  .d88888b.  888     888 ')
   message.push(' d88P  Y88b 888        888              Y88b d88P  d88P" "Y88b 888     888 ')
   message.push('  "Y888b.   8888888    8888888            Y888P    888     888 888     888 ')
@@ -114,9 +90,11 @@ begin
 
     if col_i < rainbow.length
       col_i += 1
+
     elsif col_i == rainbow.length
-      rainbow = reverse_rainbow
+      rainbow = rainbow.reverse
       col_i = 0
+
     end
   }
 
