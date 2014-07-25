@@ -12,4 +12,4 @@ the art I recommend: http://patorjk.com/software/taag/
 
 Examples
 ========
-![](https://github.com/github/training-kit/blob/master/images/screenshot.png)
+![](https://github.com/daniel-middleton/Shellshock/blob/master/screenshot.png)
