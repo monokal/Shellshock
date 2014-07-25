@@ -9,3 +9,7 @@ SSH logout of a server, add the above line to your "~/.bash_logout".
 
 To add a custom random message, simply create a new file in the "messages" directory with your ASCII art. To generate
 the art I recommend: http://patorjk.com/software/taag/
+
+Examples
+========
+![](https://github.com/github/training-kit/blob/master/images/screenshot.png)
