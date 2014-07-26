@@ -13,3 +13,7 @@ the art I recommend: http://patorjk.com/software/taag/
 Examples
 ========
 ![](https://github.com/daniel-middleton/Shellshock/blob/master/screenshot.png)
+
+Credits
+=======
+Shellshock was adapted from and inspired by the Gists of Daniel Rehn (danielrehn) and Sean Linsley (seanlinsley).
