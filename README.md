@@ -5,7 +5,7 @@ Print a colourful random message in your Shell. For example, fun to add to *SSH 
 Usage
 -----
 Just add <code>ruby CLONE_DIRECTORY/Shellshock/shellshock.rb; sleep 1</code> to your desired execution file. For example, to display a message on
-SSH logout of a server simply add the above line to your user's <code>~/.bash_logout</code> file on the server.
+*SSH logout* of a server simply add the above line to your user's <code>~/.bash_logout</code> file on the server.
 
 To add your own custom random messages, simply create a new file in the <code>messages</code> directory with your ASCII art. To generate
 the art I recommend using http://patorjk.com/software/taag/ or http://www.network-science.de/ascii/ and contributing them back is welcome (see *Contribute* below).
