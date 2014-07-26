@@ -4,7 +4,7 @@ begin
 
   message = Array.new
   colour  = Array.new
-  messages = Dir["messages/*"]
+  messages = Dir["#{File.expand_path File.dirname(__FILE__)}/messages/*"]
 
   File.readlines("#{messages.sample}").each do |line|
     message.push(line.chomp)
