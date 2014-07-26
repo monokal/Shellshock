@@ -1,6 +1,6 @@
 Shellshock
 ==========
-Print a colourful random message in your Shell. For example, fun to add on *SSH login/logout*.
+Print a colourful random message in your Shell. For example, fun to add to *SSH login/logout*.
 
 Usage
 -----
