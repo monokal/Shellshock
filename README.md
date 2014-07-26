@@ -8,7 +8,7 @@ Just add "ruby DIRECTORY_PATH/Shellshock/shellshock.rb; sleep 1" to your desired
 SSH logout of a server, add the above line to your "~/.bash_logout".
 
 To add a custom random message, simply create a new file in the "messages" directory with your ASCII art. To generate
-the art I recommend: http://patorjk.com/software/taag/
+the art I recommend: http://patorjk.com/software/taag/ or http://www.network-science.de/ascii/
 
 Examples
 ========
