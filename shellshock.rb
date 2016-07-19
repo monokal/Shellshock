@@ -23,16 +23,8 @@ begin
     end
   end
 
-  i = 0
-  message.each { |msg|
-    puts msg.colorize(colour.at(i))
-
-    if i < colour.length - 1
-      i += 1
-    elsif i == colour.length - 1
-      colour = colour.reverse
-      i = 0
-    end
+  message.zip(colour.cycle).each{|msg, color|
+    puts msg.colorize(color)
   }
 
 rescue
